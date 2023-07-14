@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=VT323&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 
 * {
   margin: 0;
@@ -15,7 +16,6 @@ nav {
 body {
   font-family: "Merriweather", serif;
   margin: 20px;
-  background-color: red;
 }
 
 h1 {
@@ -85,11 +85,50 @@ ul {
   align-items: center;
   scroll-snap-align: center;
 
-  background-image: linear-gradient(to bottom right, rgb(100, 95, 0), gray);
+  background-image: linear-gradient(to bottom right, rgb(48, 100, 0), gray);
+}
+
+.outro-main {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+
+  background-image: linear-gradient(to bottom right, rgb(216, 235, 198), gray);
 }
 
 .card {
   margin: 25px;
   height: 15rem;
   object-fit: cover;
+}
+
+/* outro */
+.name-card {
+  width: 360px;
+  /* height: 110px; */
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px gray; /* 그림자 효과*/
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(248, 233, 151);
+}
+.name {
+  font-weight: bold;
+  font-size: 100px;
+  margin-bottom: 10px;
+  font-family: "Gugi", cursive;
+}
+.job-title {
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
